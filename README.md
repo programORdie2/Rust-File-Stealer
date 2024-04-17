@@ -19,13 +19,15 @@ That's it!
 ## Options
 ### Compression type
 Sets the compression type (0 none [fastest, biggest file size], 1 deflated [slower, smaller], 2cbzip [slowest, smallest file size]), default is 1.
-Example;:
+<br>
+Example:
 ```
 cargo run -- --compression 0
 ```
 
 ### Max scan size
 Defines the max file size the program should copy in MB, default is 5.
+<br>
 Example:
 ```
 cargo run -- --max_size 2
@@ -33,6 +35,7 @@ cargo run -- --max_size 2
 
 ### Scan USB drives or other stations too
 If the program should scan all mounted drives, use this flag, default is false.
+<br>
 Example:
 ```
 cargo run -- --drives
